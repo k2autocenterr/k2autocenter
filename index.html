@@ -3,7 +3,48 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>K2 Auto Center • Mecânica Especializada</title>
+
+    <title>K2 Auto Center • Mecânica Especializada em Catalão</title>
+
+    <!-- SEO -->
+    <meta name="description" content="Mecânica especializada em Catalão: manutenção completa, revisão, suspensão, freios, ar-condicionado automotivo, diagnóstico eletrônico e carros importados. Atendimento rápido e confiável.">
+    <meta name="keywords" content="mecânica Catalão, oficina Catalão, ar condicionado automotivo, carros importados, mecânico, revisão automotiva, K2 Auto Center, manutenção automotiva">
+    <meta name="author" content="K2 Auto Center">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="K2 Auto Center • Mecânica Especializada em Catalão">
+    <meta property="og:description" content="Revisão, manutenção, ar-condicionado, suspensão e serviços para carros importados. Honestidade e qualidade garantida.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/k2autocenterr/k2autocenter/main/logo.png">
+    <meta property="og:url" content="https://k2autocenterr.github.io/k2autocenter/">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://k2autocenterr.github.io/k2autocenter/">
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoRepair",
+      "name": "K2 Auto Center",
+      "image": "https://raw.githubusercontent.com/k2autocenterr/k2autocenter/main/logo.png",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rua Olavo Bilac, 455",
+        "addressLocality": "Catalão",
+        "addressRegion": "GO",
+        "postalCode": "75702-667",
+        "addressCountry": "BR"
+      },
+      "url": "https://k2autocenterr.github.io/k2autocenter/",
+      "telephone": "+5564981292546",
+      "openingHours": ["Mo-Fr 08:00-18:00", "Sa 08:00-12:00"],
+      "priceRange": "$$"
+    }
+    </script>
 
     <style>
         body {
@@ -31,21 +72,18 @@
 
         nav a {
             color: #fff;
-            margin-left: 25px;
+            margin-left: 20px;
             text-decoration: none;
             font-size: 18px;
-            transition: 0.3s;
         }
 
         nav a:hover {
             color: #ffc800;
         }
 
-        /* HERO */
         .hero {
             height: 90vh;
-            background: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1600&q=80')
-                center/cover no-repeat;
+            background: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -57,15 +95,12 @@
         .hero h1 {
             font-size: 52px;
             max-width: 600px;
-            margin-bottom: 10px;
-            animation: fadeIn 2s;
         }
 
         .hero p {
             font-size: 22px;
             max-width: 550px;
-            margin-bottom: 25px;
-            animation: fadeIn 3s;
+            margin-bottom: 20px;
         }
 
         .btn {
@@ -76,25 +111,10 @@
             font-size: 20px;
             border-radius: 8px;
             text-decoration: none;
-            width: fit-content;
-            display: inline-block;
-            transition: 0.3s;
         }
 
-        .btn:hover {
-            background: #ffdd4d;
-            transform: scale(1.05);
-        }
-
-        /* Sections */
         section {
             padding: 60px 40px;
-        }
-
-        h2 {
-            font-size: 32px;
-            margin-bottom: 20px;
-            color: #111;
         }
 
         .servicos {
@@ -108,14 +128,8 @@
             padding: 25px;
             border-radius: 12px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-            transition: 0.3s;
         }
 
-        .card:hover {
-            transform: translateY(-5px);
-        }
-
-        /* Footer */
         footer {
             background: #000;
             color: #fff;
@@ -124,10 +138,11 @@
             margin-top: 40px;
         }
 
-        /* Animation */
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
+        iframe {
+            width: 100%;
+            height: 350px;
+            border: none;
+            border-radius: 12px;
         }
     </style>
 </head>
@@ -135,29 +150,25 @@
 <body>
 
     <header>
-       <img src="https://raw.githubusercontent.com/k2autocenterr/k2autocenter/main/logo.png" alt="K2 Auto Center"/>
+        <img src="https://raw.githubusercontent.com/k2autocenterr/k2autocenter/main/logo.png" alt="K2 Auto Center - Mecânica em Catalão">
         <nav>
             <a href="#sobre">Sobre</a>
             <a href="#servicos">Serviços</a>
+            <a href="servicos_detalhados.html">Serviços Detalhados</a>
             <a href="#contato">Contato</a>
         </nav>
     </header>
 
     <section class="hero">
         <h1>Mecânica Especializada com Qualidade e Confiança</h1>
-        <p>
-            Serviços completos de manutenção, diagnóstico, revisão e reparos,
-            com atendimento profissional e ambiente confortável.
-        </p>
-        <a class="btn" href="https://wa.me/5564981258170">Agendar pelo WhatsApp</a>
+        <p>Revisão completa, diagnóstico eletrônico, ar-condicionado e serviços para carros importados.</p>
+        <a class="btn" href="https://wa.me/5564981258170">Agendar no WhatsApp</a>
     </section>
 
     <section id="sobre">
-        <h2>Sobre a K2 Auto Center</h2>
+        <h2>Sobre Nós</h2>
         <p>
-            A <strong>K2 Auto Center</strong> oferece um ambiente moderno e organizado,
-            com escritório confortável, cozinha, banheiro e almoxarifado estruturado.
-            Aqui, seu veículo é tratado com profissionalismo, transparência e dedicação.
+            A <strong>K2 Auto Center</strong> oferece manutenção automotiva completa, ambiente organizado e atendimento técnico de alta qualidade.
         </p>
     </section>
 
@@ -165,33 +176,45 @@
         <h2>Nossos Serviços</h2>
 
         <div class="servicos">
-            <div class="card">
-                <h3>Manutenção Completa</h3>
-                <p>Revisões, troca de óleo, filtros e inspeção geral.</p>
-            </div>
-
-            <div class="card">
-                <h3>Diagnóstico Eletrônico</h3>
-                <p>Equipamentos modernos para identificar falhas com precisão.</p>
-            </div>
-
-            <div class="card">
-                <h3>Suspensão & Freios</h3>
-                <p>Troca, reparo e alinhamento completo do sistema.</p>
-            </div>
-
-            <div class="card">
-                <h3>Motor & Transmissão</h3>
-                <p>Reparos especializados e serviços avançados.</p>
-            </div>
+            <div class="card"><h3>Ar condicionado automotivo</h3></div>
+            <div class="card"><h3>Carros importados</h3></div>
+            <div class="card"><h3>Revisão completa</h3></div>
+            <div class="card"><h3>Injeção eletrônica</h3></div>
+            <div class="card"><h3>Suspensão e freios</h3></div>
+            <div class="card"><h3>Motor & transmissão</h3></div>
         </div>
     </section>
 
     <section id="contato">
         <h2>Contato</h2>
-        <p>📍 Catalão - Goiás</p>
-        <p>📞 (64) 98125-8170</p>
-        <p>💬 <a href="https://wa.me/5564981258170" class="btn">Chamar no WhatsApp</a></p>
+
+        <p><strong>Endereço:</strong> Rua Olavo Bilac, nº 455, Residencial dos Lucas — Catalão/GO</p>
+
+        <iframe loading="lazy"
+            src="https://www.google.com/maps?q=Rua+Olavo+Bilac+455+Catalão+GO&output=embed">
+        </iframe>
+
+        <br><br>
+        <a class="btn" target="_blank" href="https://www.google.com/maps?q=Rua+Olavo+Bilac+455+Catalão+GO">
+            Abrir no Google Maps
+        </a>
+
+        <br><br>
+        <div class="card">
+            <h3>Horário de Funcionamento</h3>
+            <p>Segunda a Sexta: 08h às 18h</p>
+            <p>Sábado: 08h às 12h</p>
+        </div>
+
+        <br>
+
+        <div class="card">
+            <h3>Contato</h3>
+            <p><strong>WhatsApp:</strong> (64) 98125-8170</p>
+            <p><strong>Telefone:</strong> (64) 98129-2546</p>
+            <a class="btn" target="_blank" href="https://api.whatsapp.com/send?phone=5564981258170">Enviar WhatsApp</a>
+        </div>
+
     </section>
 
     <footer>
