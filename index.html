@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>K2 Auto Center • Mecânica Especializada</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f4f4;
+            color: #222;
+        }
+
+        header {
+            background: #000;
+            color: #fff;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        header img {
+            height: 60px;
+        }
+
+        nav a {
+            color: #fff;
+            margin-left: 25px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffc800;
+        }
+
+        /* HERO */
+        .hero {
+            height: 90vh;
+            background: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1600&q=80')
+                center/cover no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 40px;
+            color: #fff;
+            text-shadow: 1px 1px 4px #000;
+        }
+
+        .hero h1 {
+            font-size: 52px;
+            max-width: 600px;
+            margin-bottom: 10px;
+            animation: fadeIn 2s;
+        }
+
+        .hero p {
+            font-size: 22px;
+            max-width: 550px;
+            margin-bottom: 25px;
+            animation: fadeIn 3s;
+        }
+
+        .btn {
+            background: #ffc800;
+            padding: 16px 32px;
+            color: #000;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            width: fit-content;
+            display: inline-block;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #ffdd4d;
+            transform: scale(1.05);
+        }
+
+        /* Sections */
+        section {
+            padding: 60px 40px;
+        }
+
+        h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #111;
+        }
+
+        .servicos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: #fff;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Footer */
+        footer {
+            background: #000;
+            color: #fff;
+            padding: 40px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        /* Animation */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="https://raw.githubusercontent.com/k2autocenterr/k2autocenter/main/logo.png" alt="K2 Auto Center" />
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Mecânica Especializada com Qualidade e Confiança</h1>
+        <p>
+            Serviços completos de manutenção, diagnóstico, revisão e reparos,
+            com atendimento profissional e ambiente confortável.
+        </p>
+        <a class="btn" href="https://wa.me/5564981258170">Agendar pelo WhatsApp</a>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre a K2 Auto Center</h2>
+        <p>
+            A <strong>K2 Auto Center</strong> oferece um ambiente moderno e organizado,
+            com escritório confortável, cozinha, banheiro e almoxarifado estruturado.
+            Aqui, seu veículo é tratado com profissionalismo, transparência e dedicação.
+        </p>
+    </section>
+
+    <section id="servicos">
