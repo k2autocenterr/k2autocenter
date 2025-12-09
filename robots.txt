@@ -1,9 +1,4 @@
 User-agent: *
 Allow: /
 
-# Bloquear arquivos sensíveis
-Disallow: /README.md
-Disallow: /LICENSE
-
-# Sitemap do site
 Sitemap: https://k2autocenterr.github.io/k2autocenter/sitemap.xml
