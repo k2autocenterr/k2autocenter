@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://k2autocenterr.github.io/k2autocenter/sitemap.xml
