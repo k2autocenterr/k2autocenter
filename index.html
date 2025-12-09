@@ -2,15 +2,29 @@
 <html lang="pt-BR">
 <head>
 
-  <!-- ========== SEO K2 Auto Center (ATUALIZADO) ========== -->
-  <title>K2 Auto Center — Oficina Mecânica em Catalão | Revisões e Manutenção Automotiva</title>
+  <!-- ========== SEO K2 Auto Center (ATUALIZADO 2025) ========== -->
+  <title>K2 Auto Center — Oficina Mecânica em Catalão | Revisão, Diagnóstico e Manutenção</title>
 
-  <meta name="description" content="K2 Auto Center — Oficina mecânica completa em Catalão/GO. Revisões, diagnóstico eletrônico, suspensão, freios, ar-condicionado, manutenção geral e atendimento especializado. Qualidade, confiança e preço justo.">
-  <meta name="keywords" content="K2 Auto Center, oficina mecânica Catalão, mecânico Catalão GO, revisão automotiva, manutenção de veículos, diagnóstico eletrônico, oficina Olavo Bilac, mecânico de confiança, conserto de carros, oficina automotiva GO">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="K2 Auto Center — Oficina mecânica completa no bairro Residencial dos Lucas, Catalão/GO. Revisão veicular, diagnóstico eletrônico, suspensão, freios, ar-condicionado e manutenção geral. Atendimento rápido, confiável e profissional.">
+  <meta name="keywords" content="oficina mecânica Catalão, K2 Auto Center, mecânico Catalão GO, revisão automotiva Catalão, diagnóstico eletrônico, manutenção de carros, Residencial dos Lucas, oficina Olavo Bilac">
   <meta name="author" content="K2 Auto Center">
-  <meta name="robots" content="index, follow">
+  <meta name="robots" content="index, follow"/>
 
-  <!-- Dados estruturados para Google -->
+  <!-- Instagram -->
+  <meta property="og:title" content="K2 Auto Center — Oficina Mecânica em Catalão">
+  <meta property="og:description" content="Revisão, diagnóstico eletrônico, suspensão, freios, ar-condicionado e muito mais! No bairro Residencial dos Lucas.">
+  <meta property="og:image" content="https://k2autocenterr.github.io/k2autocenter/logo.png">
+  <meta property="og:url" content="https://www.instagram.com/k2_autocenter/">
+  <meta property="og:type" content="business.business">
+
+  <!-- Google Maps / Local SEO -->
+  <meta property="place:location:latitude" content="-18.182">
+  <meta property="place:location:longitude" content="-47.946">
+
+  <!-- Dados estruturados (JSON-LD) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -22,17 +36,23 @@
       "streetAddress": "Rua Olavo Bilac, nº 455",
       "addressLocality": "Catalão",
       "addressRegion": "GO",
-      "addressCountry": "BR"
+      "addressCountry": "BR",
+      "addressSubdivision": "Residencial dos Lucas"
     },
     "telephone": "+55-64-98125-8170",
-    "url": "https://k2autocenterr.github.io/k2autocenter/"
+    "url": "https://k2autocenterr.github.io/k2autocenter/",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -18.182,
+      "longitude": -47.946
+    },
+    "sameAs": [
+      "https://www.instagram.com/k2_autocenter/"
+    ]
   }
   </script>
 
-  <!-- Configurações básicas -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
 
 </head>
@@ -55,28 +75,29 @@
     <p class="lead">Atendemos uma ampla gama de serviços para manter seu veículo seguro e confiável.</p>
 
     <div class="services">
-      <div class="card"><h3>Revisão completa</h3><p>Inspeção completa, troca de óleo e filtros, checklist pré-viagem.</p></div>
-      <div class="card"><h3>Diagnóstico eletrônico</h3><p>Leitura de falhas, sensores e correção de códigos via scanner.</p></div>
-      <div class="card"><h3>Suspensão e freios</h3><p>Alinhamento, balanceamento, troca de pastilhas e amortecedores.</p></div>
-      <div class="card"><h3>Motor e transmissão</h3><p>Reparos, manutenção preventiva e correções especializadas.</p></div>
-      <div class="card"><h3>Ar-condicionado automotivo</h3><p>Recarga de gás, detecção de vazamentos e manutenção do sistema.</p></div>
-      <div class="card"><h3>Carros importados</h3><p>Atendimento especializado com ferramentas para veículos importados.</p></div>
+      <div class="card"><h3>Revisão completa</h3><p>Troca de óleo, filtros e inspeção completa.</p></div>
+      <div class="card"><h3>Diagnóstico eletrônico</h3><p>Análise via scanner e correção de falhas.</p></div>
+      <div class="card"><h3>Suspensão e freios</h3><p>Alinhamento, pastilhas, amortecedores e reparos.</p></div>
+      <div class="card"><h3>Motor e transmissão</h3><p>Reparos e manutenção preventiva.</p></div>
+      <div class="card"><h3>Ar-condicionado</h3><p>Recarga, higienização e detecção de vazamentos.</p></div>
+      <div class="card"><h3>Carros importados</h3><p>Atendimento especializado.</p></div>
     </div>
   </section>
 
   <!-- ========== Galeria ========== -->
   <section id="galeria">
     <h2>Galeria</h2>
-    <p class="lead">Alguns trabalhos e estrutura da oficina — clique para ampliar.</p>
+    <p class="lead">Alguns trabalhos da nossa oficina.</p>
 
     <div class="gallery">
-      <button onclick="openLightbox(1)"><img src="https://raw.githubusercontent.com/k2autocenterr/k2autocenter/main/gallery1.jpg" alt="Serviço 1" onerror="this.style.opacity=.35"></button>
-      <button onclick="openLightbox(2)"><img src="https://raw.githubusercontent.com/k2autocenterr/k2autocenter/main/gallery2.jpg" alt="Serviço 2" onerror="this.style.opacity=.35"></button>
-      <button onclick="openLightbox(3)"><img src="https://raw.githubusercontent.com/k2autocenterr/k2autocenter/main/gallery3.jpg" alt="Serviço 3" onerror="this.style.opacity=.35"></button>
-      <button onclick="openLightbox(4)"><img src="https://raw.githubusercontent.com/k2autocenterr/k2autocenter/main/gallery4.jpg" alt="Serviço 4" onerror="this.style.opacity=.35"></button>
+      <button><img src="https://raw.githubusercontent.com/k2autocenterr/k2autocenter/main/gallery1.jpg"></button>
+      <button><img src="https://raw.githubusercontent.com/k2autocenterr/k2autocenter/main/gallery2.jpg"></button>
+      <button><img src="https://raw.githubusercontent.com/k2autocenterr/k2autocenter/main/gallery3.jpg"></button>
+      <button><img src="https://raw.githubusercontent.com/k2autocenterr/k2autocenter/main/gallery4.jpg"></button>
     </div>
   </section>
 
+  <!-- ========== Contato ========== -->
 <section id="contato">
   <h2>Contato</h2>
 
@@ -86,8 +107,8 @@
   <p><b>Endereço:</b> Rua Olavo Bilac, nº 455 — Residencial dos Lucas, Catalão/GO</p>
 
   <p>
-    <a href="https://www.google.com/maps?q=Rua+Olavo+Bilac,+455,+Catal%C3%A3o+GO" 
-       target="_blank" 
+    <a href="https://www.google.com/maps?q=Rua+Olavo+Bilac,+455,+Residencial+dos+Lucas,+Catalão+GO"
+       target="_blank"
        style="color:#0077ff; font-weight:bold;">
       📍 Ver no Google Maps / Como Chegar
     </a>
@@ -95,15 +116,18 @@
 
   <p>
     <b>Instagram:</b>
-    <a href="https://www.instagram.com/k2_autocenter" target="_blank">@k2_autocenter</a>
+    <a href="https://www.instagram.com/k2_autocenter/" target="_blank">@k2_autocenter</a>
   </p>
 </section>
 
- <footer>
-  <p>© 2025 K2 Auto Center — Todos os direitos reservados.</p>
-  <p>
-    <a href="https://www.instagram.com/k2_autocenter" target="_blank">Instagram</a> |
-    <a href="https://www.google.com/maps?q=Rua+Olavo+Bilac,+455,+Catal%C3%A3o+GO" target="_blank">Como Chegar</a>
-  </p>
-</footer>
+  <!-- ========== Rodapé ========== -->
+  <footer>
+    <p>© 2025 K2 Auto Center — Todos os direitos reservados.</p>
+    <p>
+      <a href="https://www.instagram.com/k2_autocenter/" target="_blank">Instagram</a> |
+      <a href="https://www.google.com/maps?q=Rua+Olavo+Bilac,+455,+Residencial+dos+Lucas,+Catalão+GO" target="_blank">Como Chegar</a>
+    </p>
+  </footer>
 
+</body>
+</html>
