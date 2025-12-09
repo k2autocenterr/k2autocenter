@@ -5,4 +5,7 @@
     <priority>1.0</priority>
     <changefreq>weekly</changefreq>
   </url>
+  <!-- Se criar outras páginas, adicione aqui:
+  <url><loc>https://k2autocenterr.github.io/k2autocenter/servicos_detalhados.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  -->
 </urlset>
